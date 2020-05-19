@@ -3,25 +3,62 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		944124B42473E90800D726AF /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944124B32473E90800D726AF /* Item.swift */; };
+		944124BA2473EB4900D726AF /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944124B92473EB4900D726AF /* SwipeTableViewController.swift */; };
+		944124BC2473EBA500D726AF /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944124BB2473EBA500D726AF /* ToDoListViewController.swift */; };
+		946865D32472CE1E009D9D18 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946865D22472CE1E009D9D18 /* ChatViewController.swift */; };
 		9484FF1C2472012300982EFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9484FF1B2472012300982EFA /* AppDelegate.swift */; };
-		9484FF1E2472012300982EFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9484FF1D2472012300982EFA /* ViewController.swift */; };
+		9484FF1E2472012300982EFA /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9484FF1D2472012300982EFA /* CategoryViewController.swift */; };
 		9484FF212472012300982EFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9484FF1F2472012300982EFA /* Main.storyboard */; };
 		9484FF232472012400982EFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9484FF222472012400982EFA /* Assets.xcassets */; };
 		9484FF262472012400982EFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9484FF242472012400982EFA /* LaunchScreen.storyboard */; };
+		9484FF362472032900982EFA /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9484FF352472032900982EFA /* Message.swift */; };
+		9484FF3A247203BC00982EFA /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9484FF39247203BC00982EFA /* Category.swift */; };
+		9484FF3C24728A7600982EFA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9484FF3B24728A7600982EFA /* GoogleService-Info.plist */; };
+		9484FF3E2472B0D000982EFA /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9484FF3D2472B0D000982EFA /* RegisterViewController.swift */; };
+		9484FF402472B3F500982EFA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9484FF3F2472B3F500982EFA /* LoginViewController.swift */; };
+		9484FF422472B40A00982EFA /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9484FF412472B40A00982EFA /* WelcomeViewController.swift */; };
+		9484FF452472B60400982EFA /* CustomMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9484FF432472B60400982EFA /* CustomMessageCell.swift */; };
+		9484FF462472B60400982EFA /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9484FF442472B60400982EFA /* MessageCell.xib */; };
+		9484FF4A2472B82A00982EFA /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9484FF492472B82A00982EFA /* WeatherManager.swift */; };
+		9484FF4C2472B85900982EFA /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9484FF4B2472B85900982EFA /* WeatherData.swift */; };
+		9484FF4E2472B88400982EFA /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9484FF4D2472B88400982EFA /* WeatherModel.swift */; };
+		9484FF502472BA4F00982EFA /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9484FF4F2472BA4F00982EFA /* WeatherViewController.swift */; };
+		F1C7492604984D9858710431 /* Pods_Trinity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9901F239508CCC2E6E7B8B /* Pods_Trinity.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6DDA8B74C482A61EFEBFA502 /* Pods-Trinity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trinity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Trinity/Pods-Trinity.debug.xcconfig"; sourceTree = "<group>"; };
+		944124B32473E90800D726AF /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		944124B92473EB4900D726AF /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
+		944124BB2473EBA500D726AF /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
+		946865D22472CE1E009D9D18 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		9484FF182472012300982EFA /* Trinity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trinity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9484FF1B2472012300982EFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9484FF1D2472012300982EFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9484FF1D2472012300982EFA /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		9484FF202472012300982EFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9484FF222472012400982EFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9484FF252472012400982EFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9484FF272472012400982EFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9484FF352472032900982EFA /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		9484FF39247203BC00982EFA /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		9484FF3B24728A7600982EFA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9484FF3D2472B0D000982EFA /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		9484FF3F2472B3F500982EFA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9484FF412472B40A00982EFA /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		9484FF432472B60400982EFA /* CustomMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMessageCell.swift; sourceTree = "<group>"; };
+		9484FF442472B60400982EFA /* MessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		9484FF492472B82A00982EFA /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		9484FF4B2472B85900982EFA /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		9484FF4D2472B88400982EFA /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		9484FF4F2472BA4F00982EFA /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		9484FF512472C04500982EFA /* Trinity.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Trinity.entitlements; sourceTree = "<group>"; };
+		B6977885B5A9517F12089B88 /* Pods-Trinity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trinity.release.xcconfig"; path = "Pods/Target Support Files/Pods-Trinity/Pods-Trinity.release.xcconfig"; sourceTree = "<group>"; };
+		BC9901F239508CCC2E6E7B8B /* Pods_Trinity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trinity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +66,93 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1C7492604984D9858710431 /* Pods_Trinity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18E70BCC07A527D647A91990 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DDA8B74C482A61EFEBFA502 /* Pods-Trinity.debug.xcconfig */,
+				B6977885B5A9517F12089B88 /* Pods-Trinity.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		28CC6C785F38A9349A0E48DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC9901F239508CCC2E6E7B8B /* Pods_Trinity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		944124B52473E94900D726AF /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				9484FF3D2472B0D000982EFA /* RegisterViewController.swift */,
+				9484FF3F2472B3F500982EFA /* LoginViewController.swift */,
+				9484FF412472B40A00982EFA /* WelcomeViewController.swift */,
+				946865D22472CE1E009D9D18 /* ChatViewController.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		944124B72473E98200D726AF /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				9484FF4F2472BA4F00982EFA /* WeatherViewController.swift */,
+			);
+			name = Weather;
+			sourceTree = "<group>";
+		};
+		944124B82473E9C400D726AF /* Todo */ = {
+			isa = PBXGroup;
+			children = (
+				9484FF1D2472012300982EFA /* CategoryViewController.swift */,
+				944124B92473EB4900D726AF /* SwipeTableViewController.swift */,
+				944124BB2473EBA500D726AF /* ToDoListViewController.swift */,
+			);
+			name = Todo;
+			sourceTree = "<group>";
+		};
+		944124BD2473EC9B00D726AF /* Chatt */ = {
+			isa = PBXGroup;
+			children = (
+				9484FF352472032900982EFA /* Message.swift */,
+			);
+			path = Chatt;
+			sourceTree = "<group>";
+		};
+		944124BE2473ECCC00D726AF /* Weatherr */ = {
+			isa = PBXGroup;
+			children = (
+				9484FF492472B82A00982EFA /* WeatherManager.swift */,
+				9484FF4B2472B85900982EFA /* WeatherData.swift */,
+				9484FF4D2472B88400982EFA /* WeatherModel.swift */,
+			);
+			name = Weatherr;
+			sourceTree = "<group>";
+		};
+		944124BF2473ECED00D726AF /* ToDo */ = {
+			isa = PBXGroup;
+			children = (
+				9484FF39247203BC00982EFA /* Category.swift */,
+				944124B32473E90800D726AF /* Item.swift */,
+			);
+			name = ToDo;
+			sourceTree = "<group>";
+		};
 		9484FF0F2472012300982EFA = {
 			isa = PBXGroup;
 			children = (
 				9484FF1A2472012300982EFA /* Trinity */,
 				9484FF192472012300982EFA /* Products */,
+				18E70BCC07A527D647A91990 /* Pods */,
+				28CC6C785F38A9349A0E48DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +167,55 @@
 		9484FF1A2472012300982EFA /* Trinity */ = {
 			isa = PBXGroup;
 			children = (
+				9484FF512472C04500982EFA /* Trinity.entitlements */,
 				9484FF1B2472012300982EFA /* AppDelegate.swift */,
-				9484FF1D2472012300982EFA /* ViewController.swift */,
-				9484FF1F2472012300982EFA /* Main.storyboard */,
-				9484FF222472012400982EFA /* Assets.xcassets */,
+				9484FF342472028700982EFA /* Model */,
+				9484FF332472027900982EFA /* View */,
+				9484FF322472026700982EFA /* Controller */,
 				9484FF242472012400982EFA /* LaunchScreen.storyboard */,
 				9484FF272472012400982EFA /* Info.plist */,
+				9484FF3B24728A7600982EFA /* GoogleService-Info.plist */,
 			);
 			path = Trinity;
+			sourceTree = "<group>";
+		};
+		9484FF322472026700982EFA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				944124B82473E9C400D726AF /* Todo */,
+				944124B72473E98200D726AF /* Weather */,
+				944124B52473E94900D726AF /* Chat */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9484FF332472027900982EFA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9484FF482472B62A00982EFA /* Custom Cell */,
+				9484FF1F2472012300982EFA /* Main.storyboard */,
+				9484FF222472012400982EFA /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9484FF342472028700982EFA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				944124BF2473ECED00D726AF /* ToDo */,
+				944124BE2473ECCC00D726AF /* Weatherr */,
+				944124BD2473EC9B00D726AF /* Chatt */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9484FF482472B62A00982EFA /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9484FF432472B60400982EFA /* CustomMessageCell.swift */,
+				9484FF442472B60400982EFA /* MessageCell.xib */,
+			);
+			name = "Custom Cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9484FF2A2472012400982EFA /* Build configuration list for PBXNativeTarget "Trinity" */;
 			buildPhases = (
+				E38D88397017E934CAF422AC /* [CP] Check Pods Manifest.lock */,
 				9484FF142472012300982EFA /* Sources */,
 				9484FF152472012300982EFA /* Frameworks */,
 				9484FF162472012300982EFA /* Resources */,
+				EBB3E498263110CC5F46B160 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +252,11 @@
 				TargetAttributes = {
 					9484FF172472012300982EFA = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -122,7 +283,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9484FF462472B60400982EFA /* MessageCell.xib in Resources */,
 				9484FF262472012400982EFA /* LaunchScreen.storyboard in Resources */,
+				9484FF3C24728A7600982EFA /* GoogleService-Info.plist in Resources */,
 				9484FF232472012400982EFA /* Assets.xcassets in Resources */,
 				9484FF212472012300982EFA /* Main.storyboard in Resources */,
 			);
@@ -130,13 +293,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E38D88397017E934CAF422AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trinity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBB3E498263110CC5F46B160 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trinity/Pods-Trinity-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trinity/Pods-Trinity-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Trinity/Pods-Trinity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9484FF142472012300982EFA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9484FF1E2472012300982EFA /* ViewController.swift in Sources */,
+				9484FF452472B60400982EFA /* CustomMessageCell.swift in Sources */,
+				9484FF502472BA4F00982EFA /* WeatherViewController.swift in Sources */,
+				9484FF402472B3F500982EFA /* LoginViewController.swift in Sources */,
+				9484FF422472B40A00982EFA /* WelcomeViewController.swift in Sources */,
+				944124BA2473EB4900D726AF /* SwipeTableViewController.swift in Sources */,
+				944124B42473E90800D726AF /* Item.swift in Sources */,
+				9484FF3A247203BC00982EFA /* Category.swift in Sources */,
+				9484FF362472032900982EFA /* Message.swift in Sources */,
+				944124BC2473EBA500D726AF /* ToDoListViewController.swift in Sources */,
+				9484FF3E2472B0D000982EFA /* RegisterViewController.swift in Sources */,
+				9484FF4C2472B85900982EFA /* WeatherData.swift in Sources */,
+				9484FF4A2472B82A00982EFA /* WeatherManager.swift in Sources */,
+				946865D32472CE1E009D9D18 /* ChatViewController.swift in Sources */,
+				9484FF1E2472012300982EFA /* CategoryViewController.swift in Sources */,
 				9484FF1C2472012300982EFA /* AppDelegate.swift in Sources */,
+				9484FF4E2472B88400982EFA /* WeatherModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +499,10 @@
 		};
 		9484FF2B2472012400982EFA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DDA8B74C482A61EFEBFA502 /* Pods-Trinity.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Trinity/Trinity.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FL289G482T;
 				INFOPLIST_FILE = Trinity/Info.plist;
@@ -298,8 +519,10 @@
 		};
 		9484FF2C2472012400982EFA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6977885B5A9517F12089B88 /* Pods-Trinity.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Trinity/Trinity.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FL289G482T;
 				INFOPLIST_FILE = Trinity/Info.plist;
