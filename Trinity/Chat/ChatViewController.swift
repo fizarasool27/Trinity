@@ -27,6 +27,8 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        navigationItem.hidesBackButton = true
+        
         messageTableView.delegate = self
         messageTableView.dataSource = self
         
@@ -143,7 +145,6 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     func retreiveMessages() {
         
-        //let messageDB = Database.database().reference().child("Messages")
         db.collection("messages").order(by: "dateField").addSnapshotListener { (querySnapshot, error) in
             
             self.messageArray = []
@@ -168,19 +169,6 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
                 }
             }
         }
-    }
-    
-    @IBAction func logOutPressed(_ sender: AnyObject) {
-        
-        do {
-            try Auth.auth().signOut()
-            navigationController?.popToRootViewController(animated: true)
-        }
-            
-        catch {
-            print("Error, there was a problem signing out.")
-        }
-        
     }
     
 }

@@ -317,13 +317,7 @@
                         <viewLayoutGuide key="safeArea" id="4ve-eH-SlX"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="UQY-d5-AdP"/>
-                    <navigationItem key="navigationItem" title="Flash Chat" id="PI8-2d-Qgs">
-                        <barButtonItem key="rightBarButtonItem" title="Log Out" id="wM7-JT-Q3q">
-                            <connections>
-                                <action selector="logOutPressed:" destination="Z1v-Qb-dSB" id="RLP-Ck-u4Z"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Flash Chat" id="PI8-2d-Qgs"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="heightConstraint" destination="5Xb-z5-JVK" id="ft1-7c-llO"/>
