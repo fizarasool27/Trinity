@@ -123,7 +123,7 @@
                                         </state>
                                         <connections>
                                             <action selector="registerPressed:" destination="ZOm-O7-AOf" eventType="touchUpInside" id="kJT-Xi-VPg"/>
-                                            <segue destination="eRV-JL-QiU" kind="push" identifier="goToTab" id="Lxs-Fn-3sa"/>
+                                            <segue destination="eRV-JL-QiU" kind="presentation" identifier="goToTab" id="Gmw-gu-BVq"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -198,7 +198,7 @@
                                         </state>
                                         <connections>
                                             <action selector="logInPressed:" destination="gOn-bI-P2Q" eventType="touchUpInside" id="Gu2-Wd-ieX"/>
-                                            <segue destination="eRV-JL-QiU" kind="push" identifier="goToTab" id="yh8-oD-ZQA"/>
+                                            <segue destination="eRV-JL-QiU" kind="presentation" identifier="goToTab" id="weZ-Eb-wZa"/>
                                         </connections>
                                     </button>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dmz-Xw-Csq">
@@ -642,6 +642,6 @@
         </namedColor>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="yh8-oD-ZQA"/>
+        <segue reference="weZ-Eb-wZa"/>
     </inferredMetricsTieBreakers>
 </document>
