@@ -8,7 +8,6 @@
 
 import UIKit
 import RealmSwift
-import ChameleonFramework
 
 
 class CategoryViewController: SwipeTableViewController{
@@ -21,6 +20,7 @@ class CategoryViewController: SwipeTableViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.separatorStyle = UITableViewCell.SeparatorStyle.singleLine
         
         loadCategory()
         
@@ -42,11 +42,6 @@ class CategoryViewController: SwipeTableViewController{
             
             cell.textLabel?.text = categorySelected.name ?? "No Categories Added Yet"
             
-            guard let categoryColor = UIColor(hexString: categorySelected.catColor) else {fatalError()}
-            
-            cell.backgroundColor =  categoryColor
-            
-            cell.textLabel?.textColor = ContrastColorOf(categoryColor, returnFlat: true)
         }
         
         return cell
@@ -82,7 +77,7 @@ class CategoryViewController: SwipeTableViewController{
             
             let newCategory = Category()
             newCategory.name = self.textField.text!
-            newCategory.catColor = UIColor.randomFlat.hexValue()
+            //newCategory.catColor = UIColor.randomFlat.hexValue()
             //            self.categoryArray.append(newCategory)
             
             self.save(category : newCategory)
@@ -93,13 +88,8 @@ class CategoryViewController: SwipeTableViewController{
             alertTextField.placeholder = "Add a new category"
             self.textField = alertTextField
             
-            //            let tapGesture = UITapGestureRecognizer(target: self, action: #selector(self.tableViewTapped))
-            //
-            //            self.tableView.addGestureRecognizer(tapGesture)
-            
-            
-            
         }
+        
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel) { (cancelAction) in
             print("This is cancel action")
         }
@@ -112,24 +102,6 @@ class CategoryViewController: SwipeTableViewController{
         
         
     }
-    
-    //    @objc func tableViewTapped() {
-    //
-    //        textField.endEditing(true)
-    //
-    //    }
-    //
-    //    func textFieldDidEndEditing(_ textField: UITextField) {
-    //        print("Get rid of alert!")
-    //        guard let window :UIWindow = UIApplication.shared.keyWindow , var topVC = window.rootViewController?.presentedViewController else {return}
-    //        while topVC.presentedViewController != nil  {
-    //            topVC = topVC.presentedViewController!
-    //        }
-    //        if topVC.isKind(of: UIAlertController.self) {
-    //            topVC.dismiss(animated: false, completion: nil)
-    //        }
-    //    }
-    
     
     //Data Manipulation methods
     

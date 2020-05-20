@@ -10,7 +10,6 @@ target 'Trinity' do
 pod 'Firebase/Auth'
 pod 'Firebase/Firestore'
 pod 'SVProgressHUD'
-pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
 pod 'RealmSwift'
 pod 'SwipeCellKit', '2.6.0'
 

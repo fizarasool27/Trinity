@@ -468,7 +468,7 @@
             </objects>
             <point key="canvasLocation" x="4615" y="1050"/>
         </scene>
-        <!--Todoey-->
+        <!--To Do List-->
         <scene sceneID="Dg2-7a-NIq">
             <objects>
                 <tableViewController id="iai-FZ-OzP" customClass="CategoryViewController" customModule="Trinity" customModuleProvider="target" sceneMemberID="viewController">
@@ -491,7 +491,7 @@
                             <outlet property="delegate" destination="iai-FZ-OzP" id="LM0-Re-Dgx"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Todoey" id="ihk-PB-aIK">
+                    <navigationItem key="navigationItem" title="To Do List" id="ihk-PB-aIK">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="AsD-40-SSC">
                             <connections>
                                 <action selector="addButtonPressed:" destination="iai-FZ-OzP" id="uN1-1k-7Tp"/>
@@ -506,7 +506,7 @@
             </objects>
             <point key="canvasLocation" x="3732" y="1051"/>
         </scene>
-        <!--Weather View Controller-->
+        <!--Weather-->
         <scene sceneID="xDp-pI-aQO">
             <objects>
                 <viewController id="5NA-FJ-kLQ" customClass="WeatherViewController" customModule="Trinity" customModuleProvider="target" sceneMemberID="viewController">
@@ -608,7 +608,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="LYa-5Z-lRU"/>
                     </view>
-                    <navigationItem key="navigationItem" id="11b-C2-EUJ"/>
+                    <navigationItem key="navigationItem" title="Weather" id="11b-C2-EUJ"/>
                     <connections>
                         <outlet property="cityLabel" destination="Gwz-lB-UNF" id="fwy-y4-obq"/>
                         <outlet property="conditionImageView" destination="tye-Br-BJJ" id="wBC-ha-Zds"/>
