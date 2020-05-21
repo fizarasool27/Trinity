@@ -34,9 +34,11 @@ Trinity is a 3-in-1 app which lets the user enjoy 3 functionalities within a sin
 The first screen that appears which is the welcome screen
 
 
+
 ![WhatsApp Image 2020-05-21 at 6 41 53 PM](https://user-images.githubusercontent.com/34658516/82562891-c244ad80-9b93-11ea-97dd-198d07099f19.jpeg)
 
 The login screen and similar to this is the Register screen
+
 
 
 ![WhatsApp Image 2020-05-21 at 6 42 01 PM](https://user-images.githubusercontent.com/34658516/82562895-c375da80-9b93-11ea-9ec7-15ec4ea04b2e.jpeg)
@@ -44,14 +46,17 @@ The login screen and similar to this is the Register screen
 The Chat Screen where we can send and receive messages
 
 
+
 ![WhatsApp Image 2020-05-21 at 6 42 10 PM](https://user-images.githubusercontent.com/34658516/82562896-c40e7100-9b93-11ea-9109-e5ff48b26769.jpeg)
 
 The Weather Screen
 
 
+
 ![WhatsApp Image 2020-05-21 at 6 42 19 PM](https://user-images.githubusercontent.com/34658516/82562898-c4a70780-9b93-11ea-9ddd-6aac7b2993b2.jpeg)
 
-ToDo list screen where we can add categories of our tasks.
+ToDo list screen where we can add categories of our tasks
+
 
 
 ![WhatsApp Image 2020-05-21 at 6 42 30 PM](https://user-images.githubusercontent.com/34658516/82562904-c4a70780-9b93-11ea-9d29-68a4a68231c7.jpeg)
